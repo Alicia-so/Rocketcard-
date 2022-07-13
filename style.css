@@ -1,0 +1,26 @@
+:root {
+    --bg: #000000;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-card);
+    height: 100%;
+    font-family: 'Prompt', sans-serif;
+    place-items: center;
+}
+
+main {
+    display: flex;
+    
+}
